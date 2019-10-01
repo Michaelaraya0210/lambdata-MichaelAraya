@@ -10,7 +10,8 @@ REQUIRED = [
 ​
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
-    setuptools.setup(
+
+setuptools.setup(
     name="lambdata-MichaelAraya",
     version = "0.1.1",
     author = "MichaelAraya",
@@ -24,5 +25,5 @@ with open("README.md", "r") as fh:
     classifiers=["Programming Language :: Python :: 3",
     "License::OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-    ]
-    )
+    ],
+)
