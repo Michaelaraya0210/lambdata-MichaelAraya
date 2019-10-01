@@ -24,3 +24,4 @@ with open("README.md", "r") as fh:
     "Operating System :: OS Independent",
     ]
     )
+twine --upload --repository_url https://test.pypi.org/legacy/dist/*
