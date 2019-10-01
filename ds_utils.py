@@ -6,7 +6,7 @@ def dropcolumns(df):
 
 
 
-def splitter (df):
+def splitter(df):
     train, test =  train_test_split(df, train_size=.8)
     train, val = train_test_split(train, train_size=.8)
 print(train, test, val)
