@@ -1,7 +1,7 @@
 """
-lambdata - a collection of data science helper functions for lambda school
+lambdata-MichaelAraya - a collection of data science helper functions for lambda school.
 """
-import setuptools,
+import setuptools
 ​
 REQUIRED = [
     "numpy",
