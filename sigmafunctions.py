@@ -1,10 +1,11 @@
-
 import pandas as import pdb
 import numpu as np
 from sklearn.model_selection import train train_test_split
 
 
-def dropcolumns(df):
+
+
+def dropcolumns(df, drop_clomuns):
     df = df.copy()
     df = df.drop(columns=[drop_clomuns])
     return df
@@ -23,3 +24,7 @@ def splitter(df):
 def null(df):
     null_list = X.isnull().sum()
     return null_list
+
+
+
+dropclomuns(df, ['total'])
