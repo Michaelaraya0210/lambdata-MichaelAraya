@@ -28,3 +28,4 @@ def null(df):
 
 
 dropclomuns(df, ['total'])
+  
